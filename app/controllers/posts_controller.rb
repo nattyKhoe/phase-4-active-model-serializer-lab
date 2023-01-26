@@ -10,6 +10,7 @@ class PostsController < ApplicationController
     post = Post.find(params[:id])
     render json: post
   end
+  
 
   private
 
